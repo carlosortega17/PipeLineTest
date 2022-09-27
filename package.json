@@ -1,0 +1,30 @@
+{
+  "name": "pipelinetest",
+  "version": "1.0.0",
+  "description": "Pipe line test with github actions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "dev": "nodemon src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlosortega17/PipeLineTest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlosortega17/PipeLineTest/issues"
+  },
+  "homepage": "https://github.com/carlosortega17/PipeLineTest#readme",
+  "devDependencies": {
+    "@types/node": "^18.7.23",
+    "@types/nodemon": "^1.19.2",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.3"
+  }
+}
