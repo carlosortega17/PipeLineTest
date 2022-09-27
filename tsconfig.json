@@ -1,12 +1,26 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
-    "noImplicitAny": true,
-    "removeComments": true,
-    "preserveConstEnums": true,
-    "sourceMap": true,
-    "outDir": "./dist"
-  },
-  "include": ["src/**/*"],
+		"module": "commonjs",
+		"esModuleInterop": true,
+		"noImplicitAny": true,
+		"removeComments": true,
+		"preserveConstEnums": true,
+		"sourceMap": true,
+		"pretty": true,
+		"outDir": "dist",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "moduleResolution": "node",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strict": true, 
+    "strictPropertyInitialization": false,
+    "target": "esnext",
+    "baseUrl": ".",
+    "typeRoots": ["./node_modules/@types", "./src/types/*.d.ts"],
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true 
+	},
+	"include": ["src/**/*"],
   "exclude": ["node_modules", "**/*.spec.ts"]
 }
